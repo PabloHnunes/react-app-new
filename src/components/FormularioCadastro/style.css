@@ -1,4 +1,5 @@
 .form-cadastro {
+    background-color: rgb(55, 54, 54);
     flex-grow: 2;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
     z-index: 1;
@@ -8,6 +9,7 @@
     padding: 12px 40px;
   }
   .form-cadastro_input {
+    border-radius: 5px;
     margin-top: 8px;
     padding: 4px;
     border: none;
@@ -17,10 +19,12 @@
   }
   
   .form-cadastro_submit {
+    border-radius: 7px;
+    margin-top: 10px;
     align-self: flex-end;
     width: 30%;
     background-color: var(--secundaria);
-    color: white;
+    color: var(--primaria);
     font-weight: 400;
   }
   
