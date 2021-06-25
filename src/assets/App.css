@@ -1,5 +1,10 @@
 .conteudo{
     display: flex;
+    background-color: var(--fundo);
+}
+
+.conteudo-principal{
+    flex-grow: 3;
 }
 
 :root {

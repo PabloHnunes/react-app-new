@@ -1,12 +1,23 @@
-.lista-categoria{
-
+.lista-categorias{
+    background-color: var(--fundo);
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
 }
-.lista-categoria_lista{
-
+.lista-categorias_lista{
+    background-color: var(--fundo);
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-.lista-categoria_item{
-
+.lista-categorias_item{
+    background-color: var(--secundaria);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.lista-categoria_input{
-    
+.lista-categorias_input{
+    margin-right: 20px;
 }
