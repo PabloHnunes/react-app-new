@@ -18,6 +18,10 @@ export default class ArrayDeNotas {
   inscrever(func) {
     this.inscritos.push(func);
   }
+  
+  desinscrever(func) {
+    this.inscritos = this.inscritos.filter( f => f !== func);
+  }
 
   notificar() {
     this.inscritos.forEach((func) => {
